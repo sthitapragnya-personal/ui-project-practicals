@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+
+.header .navbar1{
+    color: aliceblue;
+    background-color: rgb(247,231,255);
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navbar1 .logo{
+    /* background-color: yellow; */
+    width: 20%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.header .navbar1 .options{
+    /* background-color: blue; */
+    width: 40%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.header .navbar1 .options a{
+    color: black;
+    /* width: 25%; */
+    /* background-color: brown; */
+    font-size: 17px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+.sup1{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 20px;
+    font-size: 12px;
+    padding: 3px 6px;
+}
+
+.span1{
+    background-color: white;
+    padding: 3px 15px;
+    border-radius:8px;
+    outline: none;
+    color: red;
+    text-transform: capitalize;
+}
+.span2{
+    color: black;
+}
+
+/* ------------------------------ */
+.main{
+    width: 100%;
+    height: 91%;
+    display: flex;
+    justify-content: center;
+}
+
+.main .box1{
+    /* background-color: blue; */
+    width: 50%;
+    height: 100%;
+
+}
+.main .box2{
+    /* background-color: peru; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box1_1{
+    /* background-color: red; */
+    width: 70%;
+    height: 60%;
+    margin-left: 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    
+}
+
+.box2_1{
+    /* background-color: red; */
+    width: 70%;
+    height: 70%;
+    background-image: url("../images/image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    outline: none;
+    /* box-shadow: 2px 0px 10px 0px blueviolet; */
+}
+
+.students{
+  text-transform: capitalize;
+  color: #f58c03;
+}
+.ecosystem1{
+    text-transform: capitalize;
+    color: #f58c03;
+}
+.ecosystem2{
+    text-transform: capitalize;
+    color: #f58c03;
+}
+.explore{
+    text-transform: uppercase;
+    background-color: #f8423d ;
+    width: 35%;
+    text-align: center;
+    padding: 13px 2px;
+    color: whitesmoke;
+}
+
+/* ------------------------------------------- */
+
+.second_heading{
+    width: 100vw;
+	height: 100vh;
+    background-color: #f8423d;
+    display: flex;
+    box-sizing: border-box;
+}
